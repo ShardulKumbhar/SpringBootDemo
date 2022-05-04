@@ -19,4 +19,9 @@ public class HelloController {
         modelAndView.setViewName("hello.html");
         return modelAndView;
     }
+
+    @GetMapping("/Shardul")
+    public String sayhellotome(){
+        return "Hello Shardul";
+    }
 }
